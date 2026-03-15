@@ -6,8 +6,9 @@ import Mountains from "./components/Mountains";
 function App() {
   return (
     <>
+      <Mountains />
       {/* <h1 class="text-3xl font-bold underline">Hello world!</h1> */}
-      {/* <img src="../assets/design/desktop-design.jpg" alt="" /> */}
+      <img src="../assets/design/desktop-design.jpg" alt="" />
     </>
   );
 }
