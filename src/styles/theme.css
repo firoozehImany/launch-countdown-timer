@@ -1,0 +1,21 @@
+@theme {
+  /* --- Typography & Breakpoints --- */
+  --font-red-hat: "Red Hat Text", sans-serif;
+  --breakpoint-mobile: 375px;
+  --breakpoint-desktop: 1440px;
+
+  /* Primary Colors */
+  --color-soft-red: hsl(345, 95%, 68%);
+  --color-grayish-blue: hsl(237, 18%, 59%);
+
+  /* --- Colors --- */
+  --image-bg-main: linear-gradient(to bottom, #f1f5f9, #e2e8f0);
+  --color-text-main: hsl(235, 16%, 14%);
+  --color-mtn-back: hsl(240, 10%, 80%);
+  --color-mtn-mid: hsl(240, 10%, 90%);
+  --color-mtn-front: hsl(271, 36%, 22%);
+  --color-card-top: hsl(0, 0%, 90%);
+  --color-card-bot: hsl(0, 0%, 100%);
+}
+
+

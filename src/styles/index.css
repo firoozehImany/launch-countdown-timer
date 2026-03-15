@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@import "./fonts.css";
+@import "./theme.css";
+@import "./base.css";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    background-image: var(--image-bg-main);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    @apply font-red-hat transition-all duration-500;
+    min-height: 100vh;
+  }
+
+  .dark {
+    --image-bg-main: linear-gradient(
+      to bottom,
+      hsl(235, 16%, 14%),
+      hsl(270, 19%, 14%)
+    );
+    --color-text-main: hsl(0, 0%, 100%);
+    --color-mtn-back: hsl(266, 21%, 13%);
+    --color-mtn-mid: hsl(251, 19%, 12%);
+    --color-mtn-front: hsl(273, 23%, 18%);
+    --color-card-top: hsl(242, 34%, 24%);
+    --color-card-bot: hsl(242, 31%, 23%);
+  }
+}

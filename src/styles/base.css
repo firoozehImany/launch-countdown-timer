@@ -1,0 +1,21 @@
+@layer base {
+  .container {
+    @apply mx-auto px-6;
+    max-width: var(--breakpoint-desktop);
+  }
+
+  @media (max-width: 375px) {
+    .container {
+      max-width: var(--breakpoint-mobile);
+    }
+  }
+
+  html {
+    direction: ltr;
+    scroll-behavior: smooth;
+  }
+
+  img {
+    @apply max-w-full h-auto;
+  }
+}
