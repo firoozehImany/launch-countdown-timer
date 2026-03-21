@@ -1,4 +1,4 @@
-const Mountains = () => {
+export default function Mountains(){
   return (
     <div className="absolute bottom-0 left-0 w-full h-44 pointer-events-none">
       <div
@@ -17,5 +17,3 @@ const Mountains = () => {
     </div>
   );
 };
-
-export default Mountains;
