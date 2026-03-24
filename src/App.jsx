@@ -1,17 +1,13 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import Mountains from "./components/Mountains";
-import CountdownGroup from "./components/CountdownGroup";
+import StarsContainer from "./components/StarsContainer";
+import Hero from "./components/Hero";
+import Footer from "./components/Footer";
 
-function App() {
+export default function App() {
   return (
-    <>
-      <h1 className="text-center mt-[135px] mb-[104px] font-light uppercase text-title tracking-[0.39em] text-xl md:text-[21px]">We're launching soon</h1>
-      <CountdownGroup/>
-      <Mountains />
-    </>
+    <div className="relative min-h-screen flex flex-col">
+      <StarsContainer />
+      <Hero />
+      <Footer />
+    </div>
   );
 }
-
-export default App;

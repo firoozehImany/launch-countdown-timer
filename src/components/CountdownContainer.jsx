@@ -1,6 +1,6 @@
 import SingleCardContainer from './SingleCardContainer';
 
-export default function CountdownGroup() {
+export default function CountdownContainer() {
   return (
     <div className="flex gap-4 md:gap-8 justify-center items-center">
       <SingleCardContainer count="08" label="days" />

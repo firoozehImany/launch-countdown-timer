@@ -19,12 +19,25 @@
       hsl(235, 16%, 14%),
       hsl(270, 19%, 14%)
     );
-    --color-text-main: hsl(0, 0%, 100%);
-    --color-mtn-back: hsl(266, 21%, 13%);
-    --color-mtn-mid: hsl(251, 19%, 12%);
-    --color-mtn-front: hsl(273, 23%, 18%);
+    --color-core: hsl(345, 95%, 68%);
+    --color-typo: hsl(0, 0%, 100%);
+    --color-stella: hsl(237, 18%, 59%);
     --color-card-top: hsl(240, 21%, 22%);
     --color-card-bot: hsl(236, 21%, 26%);
     --color-shadow: hsl(234, 17%, 12%);
+    --color-mtn-back: hsl(266, 21%, 13%);
+    --color-mtn-mid: hsl(251, 19%, 12%);
+    --color-mtn-front: hsl(273, 23%, 18%);
   }
+}
+
+@utility icon-mask {
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+  mask-image: var(--icon-path);
+  -webkit-mask-image: var(--icon-path);
 }

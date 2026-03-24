@@ -4,23 +4,32 @@
   --breakpoint-mobile: 375px;
   --breakpoint-desktop: 1440px;
 
-  /* Primary Colors */
-  --color-counter: hsl(345, 95%, 68%);
-  --color-label: hsl(237, 18%, 59%);
-  --color-title: hsl(0, 0%, 100%);
+  /* Colors */
+  --color-core: hsl(345, 95%, 58%);
+  --color-typo: hsl(260, 43%, 48%);
+  --color-stella: hsl(260, 23%, 48%);
+  --color-card-top: hsl(342, 70%, 80%);
+  --color-card-bot: hsl(342, 70%, 84%);
+  --color-shadow: hsl(320, 46%, 73%);
+  --color-mtn-back: hsl(320, 53%, 79%);
+  --color-mtn-mid: hsl(270, 23%, 54%);
+  --color-mtn-front: hsl(320, 42%, 70%);
 
-  /* --- Colors --- */
   --image-bg-main: linear-gradient(
     to bottom,
-    hsl(9, 40%, 84%),
-    hsl(9, 30%, 60%)
+    hsl(360, 96%, 89%),
+    hsl(294, 43%, 88%)
   );
-  --color-text-main: hsl(235, 16%, 14%);
-  --color-mtn-back: hsl(9, 30%, 055%);
-  --color-mtn-mid: hsl(9, 50%, 36%);
-  --color-mtn-front: hsl(9, 50%, 45%);
-  --color-card-top: hsl(0, 0%, 90%);
-  --color-card-bot: hsl(0, 0%, 100%);
-  --color-Indentation: hsl(235, 19%, 12%);
-  --color-shadow: hsl(234, 17%, 12%);
-}
+
+ @keyframes twinkle {
+    0%, 100% { 
+      opacity: 0.8; 
+      transform: scale(1); 
+    }
+    50% { 
+      opacity: 0.2; 
+      transform: scale(0.8); 
+    }
+  }
+  --animate-twinkle: twinkle 3s ease-in-out infinite;
+};
