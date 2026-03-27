@@ -32,4 +32,10 @@
     }
   }
   --animate-twinkle: twinkle 3s ease-in-out infinite;
+
+  @keyframes flip {
+    from { transform: rotateX(0deg); }
+    to { transform: rotateX(-180deg); }
+  }
+  --animate-flip: flip 0.6s ease-in forwards;
 };
