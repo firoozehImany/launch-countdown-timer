@@ -5,7 +5,7 @@ export default function SingleCard({ number }) {
 
   return (
     <div className="relative w-[70px] h-[67px] md:w-[148px] md:h-35 [perspective:1000px]">
-      <div className="absolute inset-0 top-2 bg-shadow rounded-sm md:rounded-l-lg translate-y-2.5" />
+      <div className="absolute inset-0 top-2 bg-shadow rounded-sm md:rounded-lg translate-y-2.5 opacity-80" />
 
       <div className="relative flex flex-col w-full h-full text-4xl md:text-[79px] font-red-hat font-bold text-core -tracking-[1px]">
         {[
@@ -17,7 +17,7 @@ export default function SingleCard({ number }) {
             className={`relative h-1/2 overflow-hidden ${part.top ? "bg-card-top rounded-t-sm md:rounded-t-lg" : "bg-card-bot rounded-b-sm md:rounded-b-lg shadow-inner"}`}
           >
             <span
-              className={`absolute left-1/2 -translate-x-1/2 -translate-y-1/2 ${part.top ? "top-full opacity-75" : "top-0"}`}
+              className={`absolute left-1/2 -translate-x-1/2 -translate-y-1/2 ${part.top ? "top-full opacity-80" : "top-0"}`}
             >
               {part.val}
             </span>
@@ -28,7 +28,7 @@ export default function SingleCard({ number }) {
           className={`absolute inset-x-0 top-0 h-1/2 z-20 origin-bottom preserve-3d ${isFlipping ? "animate-flip" : ""}`}
         >
           <div className="absolute inset-0 bg-card-top rounded-t-sm md:rounded-t-lg overflow-hidden backface-hidden">
-            <span className="absolute opacity-75 left-1/2 top-full -translate-x-1/2 -translate-y-1/2">
+            <span className="absolute opacity-80 left-1/2 top-full -translate-x-1/2 -translate-y-1/2">
               {current}
             </span>
           </div>
