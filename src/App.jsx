@@ -4,10 +4,10 @@ import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <div className="relative md:min-h-screen flex flex-col">
+    <main className="relative md:min-h-screen flex flex-col">
       <StarsContainer />
       <Hero />
       <Footer />
-    </div>
+    </main>
   );
 }
