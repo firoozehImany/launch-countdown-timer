@@ -12,7 +12,6 @@ This is a solution to the [Launch countdown timer challenge on Frontend Mentor](
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -65,5 +64,6 @@ The biggest highlight of this project for me was returning to coding after a lon
 ## Author
 
 - Frontend Mentor - [https://www.frontendmentor.io/profile/firoozehImany](https://www.frontendmentor.io/profile/firoozehImany)
-_ LinkedIn - [@firoozehimany](https://www.linkedin.com/in/firoozehimany/)
+
+- LinkedIn - [@firoozehimany](https://www.linkedin.com/in/firoozehimany/)
 
