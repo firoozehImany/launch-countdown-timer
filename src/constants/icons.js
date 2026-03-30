@@ -4,7 +4,13 @@ export const SOCIAL_LINKS = [
   { id: 3, name: 'instagram', path: '/images/icon-instagram.svg', url: 'https://instagram.com' },
 ];
 
-export const THEME_ICON = {
-  name: 'theme-toggle',
-  path: '/images/change-mode.svg',
+export const THEME_ICONS = {
+  light: {
+    name: 'Switch to Light Mode',
+    path: '/images/sun.svg',
+  },
+  dark: {
+    name: 'Switch to Dark Mode',
+    path: '/images/moon.svg',
+  }
 };
