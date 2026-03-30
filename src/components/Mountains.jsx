@@ -1,6 +1,6 @@
 export default function Mountains(){
   return (
-    <div className="relative bottom-0 left-0 w-[1000px] h-40 md:w-full md:h-[196px] pointer-events-none">
+    <div className="relative bottom-0 left-0 min-w-7xl min-h-40 md:min-h-48 md:w-full pointer-events-none">
       <div
         className="absolute bottom-0 w-full h-full bg-mtn-back
         [clip-path:polygon(0%_100%,_0%_10%,_3%_0%,_25%_31%,_38.5%_0%,_55%_9%,_68%_20%,_75.5%_0%,_100%_25%,_100%_100%)]"
