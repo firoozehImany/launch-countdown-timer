@@ -6,6 +6,14 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  :root.light {
+    color-scheme: light;
+  }
+  
   body {
     background-image: var(--image-bg-main);
     background-attachment: fixed;
