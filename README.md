@@ -11,8 +11,6 @@ This is a solution to the [Launch countdown timer challenge on Frontend Mentor](
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -24,14 +22,17 @@ Users should be able to:
 
 - See a live countdown timer that ticks down every second.
 - **Bonus**: When a number changes, the card flips from the middle using a 3D animation.
-- Switch between **Dark Mode** and a custom **Light Mode** (Additional feature).
+- **Animated Background**: Experience a dynamic starry night with twinkling effects. 🌟
+- Switch between **Dark Mode** and a custom **Light Mode** using sun/moon icons.
 - Experience a fully responsive design across all devices.
 
 ### Screenshot
 
-![](./screenshot-dark.png)
+#### Dark Mode
+![](./references/Screenshots/screenshot-dark.png)
 
-![](./screenshot.light.png)
+#### Light Mode
+![](./references/Screenshots/screenshot-light.png)
 
 ### Links
 
@@ -52,15 +53,17 @@ Users should be able to:
 ### What I learned
 The biggest highlight of this project for me was returning to coding after a long break and tackling the complexity of 3D animations in React.
 
-1. **Separation of Concerns:** I kept the UI clean by moving the theme-switching logic into a custom hook:
+1. **Separation of Concerns:** I kept the UI clean by moving the theme-switching logic into a custom hook (`useTheme`).
 
-2. **3D Flip Animation:** Syncing the React state with CSS transitions was a great learning experience, especially using perspective and backface-visibility:
+2. **3D Flip Animation:** Syncing the React state with CSS transitions was a great learning experience, especially using `perspective` and `backface-visibility`.
 
-3. **Pixel-Perfect Design**: I focused on the fine details like "Hard Shadows" and side notches to ensure the result is as close to the original design as possible.
+3. **Dynamic Starfield:** I implemented an animated background by creating a configuration-based star system. Each star has randomized delays and sizes to create a natural twinkling effect without affecting performance.
+
+4. **Pixel-Perfect Design**: I focused on the fine details like "Hard Shadows" and side notches to ensure the result is as close to the original design as possible.
 
 
 ## Author
 
 - Frontend Mentor - [https://www.frontendmentor.io/profile/firoozehImany](https://www.frontendmentor.io/profile/firoozehImany)
-_ Linkdin - [@firoozehimany](https://www.linkedin.com/in/firoozehimany/)
+_ LinkedIn - [@firoozehimany](https://www.linkedin.com/in/firoozehimany/)
 
