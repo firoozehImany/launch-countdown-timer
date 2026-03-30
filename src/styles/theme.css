@@ -11,14 +11,14 @@
   --color-card-top: hsl(253, 90%, 86%);
   --color-card-bot: hsl(253, 91%, 90%);
   --color-shadow: hsl(253, 73%, 94%);
-  --color-mtn-back: hsl(284, 80%, 94%);
+  --color-mtn-back: hsl(270, 50%, 94%);
   --color-mtn-mid: hsl(253, 41%, 80%);
   --color-mtn-front: hsl(270, 80%, 91%);
 
   --image-bg-main: linear-gradient(
     to bottom,
-    hsl(195, 100%, 99%),
-    hsl(284, 100%, 96%)
+    hsl(284, 100%, 98%),
+    hsl(195, 100%, 97%)
   );
 
   @keyframes twinkle {
