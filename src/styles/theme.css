@@ -7,18 +7,18 @@
   /* Colors */
   --color-core: hsl(345, 95%, 68%);
   --color-typo: hsl(250, 35%, 45%);
-  --color-stella: hsl(235, 23%, 67%);
-  --color-card-top: hsl(253, 90%, 86%);
-  --color-card-bot: hsl(253, 91%, 90%);
+  --color-stella: hsl(235, 23%, 64%);
+  --color-card-top: hsl(253, 90%, 82%);
+  --color-card-bot: hsl(253, 91%, 88%);
   --color-shadow: hsl(253, 73%, 94%);
-  --color-mtn-back: hsl(270, 50%, 94%);
-  --color-mtn-mid: hsl(253, 41%, 80%);
-  --color-mtn-front: hsl(270, 80%, 91%);
+  --color-mtn-back: hsl(270, 50%, 92%);
+  --color-mtn-mid: hsl(253, 41%, 76%);
+  --color-mtn-front: hsl(270, 80%, 89%);
 
   --image-bg-main: linear-gradient(
     to bottom,
-    hsl(284, 100%, 98%),
-    hsl(195, 100%, 97%)
+    hsl(284, 100%, 96%),
+    hsl(195, 100%, 96%)
   );
 
   @keyframes twinkle {
